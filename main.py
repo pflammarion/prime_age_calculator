@@ -13,9 +13,9 @@ def is_prime(n):
 def prime_age_calculator():
     birth_year = int(input("Enter your birth year: "))
     current_year = datetime.now().year
-    age = current_year - birth_year
 
     while True:
+        age = current_year - birth_year
         if is_prime(age):
             print(f"The next year when your age will be a prime number is: {current_year}")
             break
