@@ -22,4 +22,11 @@ _To run the script_
 
 `python main.py`
 
+_Result :_
+
+```
+Enter your birth year: 2011
+The next year when your age will be a prime number is: 2024
+```
+
 
